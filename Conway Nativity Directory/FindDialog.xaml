@@ -1,0 +1,25 @@
+﻿<Window x:Class="Conway_Nativity_Directory.FindDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conway_Nativity_Directory"
+        mc:Ignorable="d"
+        Title="Find" Height="130" Width="400"
+        ShowInTaskbar="False" Topmost="True"
+        WindowStartupLocation="Manual">
+    <Grid>
+        <TextBlock Text="Search for:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
+        <TextBox Name="searchForTextBox" VerticalAlignment="Top" Height="20" Margin="71,8,10,0"/>
+        <CheckBox Name="caseSensitiveCheckBox" Content="Case Sensitive" HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Margin="30,38,10,10"/>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" FlowDirection="RightToLeft" Margin="10">
+            <Button Name="findNextBtn" Content="Find Next"
+                    Width="100" Height="24" Margin="0,0,10,0"
+                    Click="findNextBtn_Click"/>
+            <Button x:Name="findPreviousBtn" Content="Find Previous"
+                    Width="100" Height="24"
+                    Click="findPreviousBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

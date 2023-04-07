@@ -1,0 +1,6 @@
+Bugs
+	Changed the version number of the splash screen.
+	Fixed an issue where automatic updates were not working since an internet connection check kept failing.
+	
+Optimization
+	Version numbers are documented in debug.txt every time the software starts.

@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{074658A2-8730-4F67-861D-B690EFE7D532}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Conway_Nativity_Directory</RootNamespace>
+    <AssemblyName>Conway Nativity Directory</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app_icon256.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustRes">
+      <HintPath>..\..\..\CustRes Test\CustRes\bin\Debug\CustRes.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="About Box.xaml.cs">
+      <DependentUpon>About Box.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActionStack.cs" />
+    <Compile Include="Actions\NativityEditedAction.cs" />
+    <Compile Include="Actions\NativityRemovedAction.cs" />
+    <Compile Include="Actions\NativityAddedAction.cs" />
+    <Compile Include="AddNativity.xaml.cs">
+      <DependentUpon>AddNativity.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedSearch.xaml.cs">
+      <DependentUpon>AdvancedSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AutoSaving.cs" />
+    <Compile Include="ChangelogsWindow.xaml.cs">
+      <DependentUpon>ChangelogsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommandConsoleWindow.xaml.cs">
+      <DependentUpon>CommandConsoleWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ProgressBarCommand.cs" />
+    <Compile Include="Commands\TotalCommand.cs" />
+    <Compile Include="CustomCommands.cs" />
+    <Compile Include="FileWatcher.cs" />
+    <Compile Include="FindDialog.xaml.cs">
+      <DependentUpon>FindDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImportNarrativesDialog.xaml.cs">
+      <DependentUpon>ImportNarrativesDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleInputDialog.xaml.cs">
+      <DependentUpon>DoubleInputDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InputDialog.xaml.cs">
+      <DependentUpon>InputDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IssueReport.cs" />
+    <Compile Include="ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.xaml.cs">
+      <DependentUpon>ManagePluginAuthorizationCodesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePluginsWindow\ListViewItems.cs" />
+    <Compile Include="Logging.cs" />
+    <Compile Include="ManagePluginsWindow\ManagePluginsWindow.xaml.cs">
+      <DependentUpon>ManagePluginsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaskedTextBox.cs" />
+    <Compile Include="NamingOptionsDialog.xaml.cs">
+      <DependentUpon>NamingOptionsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NativityVirtualizingStackPanel.cs" />
+    <Compile Include="PluginDeployment.cs" />
+    <Compile Include="Workspaces.cs" />
+    <Compile Include="PluginDatabaseMain.cs" />
+    <Compile Include="Preferences UI\AutoSavePreference.xaml.cs">
+      <DependentUpon>AutoSavePreference.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences UI\InterfaceMainWindowPreferenceUI.xaml.cs">
+      <DependentUpon>InterfaceMainWindowPreferenceUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences UI\StartupPreferenceUI.xaml.cs">
+      <DependentUpon>StartupPreferenceUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences UI\LoginSettingsPreferenceUI.xaml.cs">
+      <DependentUpon>LoginSettingsPreferenceUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences\InterfaceMainWindowPreference.cs" />
+    <Compile Include="Preferences\AutoSavePreference.cs" />
+    <Compile Include="Preferences\StartupPreference.cs" />
+    <Compile Include="Preferences\LoginSettingsPreference.cs" />
+    <Compile Include="Preferences\CachePreference.cs" />
+    <Compile Include="Preferences\ColumnsPreference.cs" />
+    <Compile Include="Preferences\SecurityPreference.cs" />
+    <Compile Include="Preferences\InterfacePreference.cs" />
+    <Compile Include="Preferences\IPreference.cs" />
+    <Compile Include="Preferences\OptimizationPreference.cs" />
+    <Compile Include="Preferences\PerformancePreference.cs" />
+    <Compile Include="Preferences\PreferenceException.cs" />
+    <Compile Include="Preferences UI\CachePreferenceUI.xaml.cs">
+      <DependentUpon>CachePreferenceUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Clipboard.cs" />
+    <Compile Include="CustomRichTextBox.xaml.cs">
+      <DependentUpon>CustomRichTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ITreeItem.cs" />
+    <Compile Include="NativityInformation.xaml.cs">
+      <DependentUpon>NativityInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences\Preferences.cs" />
+    <Compile Include="PreferencesWindow.xaml.cs">
+      <DependentUpon>PreferencesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBarWindow.xaml.cs">
+      <DependentUpon>ProgressBarWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSettings UI\GeneralProjectSettingsUI.xaml.cs">
+      <DependentUpon>GeneralProjectSettingsUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSettingsWindow.xaml.cs">
+      <DependentUpon>ProjectSettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSettings\ColumnsProjectSettings.cs" />
+    <Compile Include="ProjectSettings\GeneralProjectSettings.cs" />
+    <Compile Include="ProjectSettings\IProjectSettings.cs" />
+    <Compile Include="Tag.xaml.cs">
+      <DependentUpon>Tag.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TagEditor.xaml.cs">
+      <DependentUpon>TagEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Page Include="About Box.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddNativity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdvancedSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChangelogsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommandConsoleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FindDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ImportNarrativesDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoubleInputDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InputDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ManagePluginsWindow\ManagePluginsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NamingOptionsDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Preferences UI\AutoSavePreference.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Preferences UI\InterfaceMainWindowPreferenceUI.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Preferences UI\StartupPreferenceUI.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Preferences UI\LoginSettingsPreferenceUI.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Preferences UI\CachePreferenceUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ColumnHeaderArrow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomRichTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomTextbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ColumnHeaderArrow.xaml.cs">
+      <DependentUpon>ColumnHeaderArrow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomTextbox.xaml.cs">
+      <DependentUpon>CustomTextbox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IFilter.cs" />
+    <Compile Include="IListItem.cs" />
+    <Compile Include="ConwayNativityDirectoryProject.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="NativityInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreferencesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProgressBarWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProjectSettings UI\GeneralProjectSettingsUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProjectSettingsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tag.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TagEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Nativity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\PluginApi.csproj">
+      <Project>{73c1b169-fe4c-4ca3-b2ca-a071373ada4d}</Project>
+      <Name>PluginApi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="app_icon128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="splash_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="app_icon_file_cnb128.ico" />
+    <Resource Include="app_icon_file_cnp128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon_help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="app_icon256.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

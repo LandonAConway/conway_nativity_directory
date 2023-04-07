@@ -1,0 +1,11 @@
+Bugs
+	Changed the size of the splash screen (shown when opening the software).
+	Fixed an issue where the Find feature would cause the software to crash after pressing "Next" or "Previous" too many times.
+	
+Optimization
+	Added a dailog asking to save before quiting.
+	Added a dialog asking to clear image.
+	The column widths are saved to the project file.
+
+*New Features
+	Added the ability to check for updates (requires an internet connection.)

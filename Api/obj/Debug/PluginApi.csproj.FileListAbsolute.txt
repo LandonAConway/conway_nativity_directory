@@ -1,0 +1,17 @@
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\Api.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\Api.pdb
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Memory.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Text.Json.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Buffers.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.ValueTuple.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\PluginApi.csproj.AssemblyReference.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\PluginApi.csproj.CoreCompileInputs.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\PluginApi.csproj.CopyComplete
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\Api.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\Api.pdb
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\Api.xml

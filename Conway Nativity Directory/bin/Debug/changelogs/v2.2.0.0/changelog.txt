@@ -1,0 +1,6 @@
+Bugs
+	Fixed an issue where when adding a new nativity, the index given still was not correct.
+
+*New Features
+	Added the ability to parse narratives under "File>Import>Parse Narratives...".
+	Added new naming features under "Edit>Naming...".

@@ -1,0 +1,7 @@
+Bugs
+	Fixed an issue where images would not rotate when changing the rotation of an image.
+
+*New Features
+	Find feature...
+		The Find feature can be located by going to  Search>Find  in the top menu bar.
+		The Find feature can be used to find specific text without the need to search for it using the search bar, or advanced search.

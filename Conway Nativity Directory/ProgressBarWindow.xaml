@@ -1,0 +1,24 @@
+﻿<Window x:Class="Conway_Nativity_Directory.ProgressBarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conway_Nativity_Directory"
+        mc:Ignorable="d"
+        Title="Progress" Width="400" Height="Auto" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="Height" Topmost="True"
+            WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="10">
+        <ProgressBar Name="Progress" Height="22"/>
+        <TextBlock Name="InfoLabel" Margin="0,10,0,0">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+    </StackPanel>
+</Window>

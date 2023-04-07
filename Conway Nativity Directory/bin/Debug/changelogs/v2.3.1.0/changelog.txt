@@ -1,0 +1,9 @@
+Bugs
+	Fixed an issue where lua scripts were not loaded.
+
+Optimizations
+	Rotating an image will now rotate the image file (Not in the EXIF). Image rotations are not loaded from the project file anymore.
+	Nativity property backgrounds are highlighted on mouseover.
+
+*New Features
+	

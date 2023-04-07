@@ -1,0 +1,25 @@
+﻿<Window x:Class="Conway_Nativity_Directory.ManagePluginAuthorizationCodesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conway_Nativity_Directory"
+        mc:Ignorable="d"
+        Title="Plugin Authorization Codes" Height="400" Width="700" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="authorizationCodesListView" Margin="0,0,0,10"
+                  ItemsSource="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:ManagePluginAuthorizationCodesWindow}},
+                                    Path=AuthorizationCodes}"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" FlowDirection="RightToLeft">
+            <Button Height="24" Width="120" Name="closeBtn" Content="Close" Click="closeBtn_Click"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Height="24" Width="120" Name="addBtn" Content="Add" Margin="0,0,10,0" Click="addBtn_Click"/>
+            <Button Height="24" Width="120" Name="removeBtn" Content="Remove" Click="removeBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

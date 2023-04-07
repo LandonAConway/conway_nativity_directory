@@ -1,0 +1,131 @@
+﻿<UserControl x:Class="Conway_Nativity_Directory.InterfaceMainWindowPreferenceUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Conway_Nativity_Directory"
+             xmlns:custres="clr-namespace:CustRes;assembly=CustRes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <StackPanel>
+                <TreeViewItem Header="Nativity Information">
+                    <StackPanel Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Font Size: "/>
+                            <custres:NumericUpDown Name="nativityInformationFontSizeNumericUpDown" Width="100" Margin="5,0" ShowButtons="False"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                            <TextBlock Text="Font Family: "/>
+                            <ComboBox Name="nativityInformationFontFamilyComboBox" Margin="5,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </TreeViewItem>
+                <TreeViewItem Header="Tags &amp; Geographical Origins">
+                    <TreeViewItem Header="General">
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Buttons"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tButtonsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Buttons (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tButtonsMouseOverBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tTagsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tTagsMouseOverBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags Forground"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tForegroundBorder"/>
+                        </StackPanel>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Editing">
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Buttons"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tEditingButtonsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Buttons (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tEditingButtonsMouseOverBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tEditingTagsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tEditingTagsMouseOverBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags Foreground"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tEditingForegroundBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tags Foreground (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tEditingMouseOverForegroundBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tag Buttons"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tTagButtonsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Tag Buttons (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tTagButtonsMouseOverBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="Moving Tags Border"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tMovingTagsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="New Tag"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tNewTagBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="New Tag Foreground"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tNewTagForegroundBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="New Tag Buttons"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tNewTagButtonsBorder"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,2.5">
+                            <TextBlock VerticalAlignment="Center" Text="New Tag Buttons (Mouse Over)"/>
+                            <Border Margin="10,0,0,0" Width="30" Height="30" PreviewMouseDown="Border_PreviewMouseDown"
+                                Name="tNewTagButtonsMouseOverBorder"/>
+                        </StackPanel>
+                    </TreeViewItem>
+                    <TreeViewItem.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="BorderBrush" Value="{x:Static SystemColors.ActiveBorderBrush}"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </TreeViewItem.Resources>
+                </TreeViewItem>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

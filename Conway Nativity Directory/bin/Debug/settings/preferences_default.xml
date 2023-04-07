@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Preferences>
+  <SecurityPreference type="preference">
+    <LoginSettingsPreference type="preference" Password=""/>
+  </SecurityPreference>
+  <OptimizationPreference type="preference">
+    <StartupPreference type="preference"/>
+    <AutoSavePreference type="preference" autoSaveEnabled="True" autoSaveIncrement="5" autoSaveAgeLimit="86400"/>
+  </OptimizationPreference>
+  <InterfacePreference type="preference">
+    <ColumnsPreference type="preference" ShowId="True" ShowTitle="True" ShowOrigin="True" ShowAcquired="True" ShowFrom="True" ShowCost="True" ShowLocation="False" ShowTags="True" ShowGeographicalOrigins="True"/>
+    <InterfaceMainWindowPreference type="preference" nativityInformationFontSize="12" nativityInformationFontFamily="" TButtonsBrush="#FFBFCDDB" TButtonsMouseOverBrush="#FF000000" TEditingButtonsBrush="#FF99B4D1" TEditingButtonsMouseOverBrush="#FF000000" TEditingTagsBrush="#FF99B4D1" TEditingTagsMouseOverBrush="#FF0078D7" TEditingForeground="#FF000000" TEditingMouseOverForeground="#FF000000" TMovingTagsBorderBrush="#FF0066CC" TNewTagBrush="#FFFFD700" TNewTagButtonsBrush="#FFFFFFFF" TNewTagButtonsMouseOverBrush="#FF000000" TNewTagForeground="#FFFFFFFF" TTagButtonsBrush="#FFFFFFFF" TTagButtonsMouseOverBrush="#FF000000" TTagsBrush="#FFBFCDDB" TTagsMouseOverBrush="#FF0078D7" TForeground="#FF000000"/>
+  </InterfacePreference>
+  <PerformancePreference type="preference">
+    <CachePreference type="preference"/>
+  </PerformancePreference>
+</Preferences>

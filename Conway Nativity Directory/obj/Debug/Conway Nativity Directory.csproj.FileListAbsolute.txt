@@ -1,0 +1,273 @@
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe.config
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.pdb
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Api.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Api.pdb
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.AssemblyReference.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AddNativity.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AdvancedSearch.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\InputDialog.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomRichTextBox.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomTextbox.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\MainWindow.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\NativityInformation.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\PreferencesWindow.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProgressBarDialog.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Tag.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\TagEditor.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\App.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.lref
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AddNativity.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AdvancedSearch.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\InputDialog.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomRichTextBox.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomTextbox.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\MainWindow.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\NativityInformation.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\PreferencesWindow.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProgressBarDialog.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Tag.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\TagEditor.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.g.resources
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.Properties.Resources.resources
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.WaitForm.resources
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.GenerateResource.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CoreCompileInputs.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.pdb
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\CustRes.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\CustRes.pdb
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettingsUI\GeneralProjectSettingsUI.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettingsUI\GeneralProjectSettingsUI.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\About Box.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\About Box.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.SuggestedBindingRedirects.cache
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CopyComplete
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\FindDialog.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\FindDialog.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ChangelogsWindow.g.cs
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ChangelogsWindow.baml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Text.Json.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.ValueTuple.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Buffers.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe.config
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe.config
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\Api.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\CustRes.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.Text.Json.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.Text.Encodings.Web.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.ValueTuple.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.Numerics.Vectors.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.Buffers.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\Api.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\bin\Debug\CustRes.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.AssemblyReference.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe.config
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\About Box.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\AddNativity.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\AdvancedSearch.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ChangelogsWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\FindDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\InputDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\CustomRichTextBox.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\CustomTextbox.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\MainWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\NativityInformation.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\PreferencesWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ProgressBarDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ProjectSettingsUI\GeneralProjectSettingsUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Tag.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\TagEditor.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\App.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.lref
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\About Box.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\AddNativity.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\AdvancedSearch.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ChangelogsWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\FindDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\InputDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\CustomRichTextBox.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\CustomTextbox.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\MainWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\NativityInformation.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\PreferencesWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ProgressBarDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ProjectSettingsUI\GeneralProjectSettingsUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Tag.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\TagEditor.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.g.resources
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.Properties.Resources.resources
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.WaitForm.resources
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.GenerateResource.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CoreCompileInputs.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CopyComplete
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory - Copy - Copy\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe.config
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Api.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\CustRes.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Memory.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Text.Json.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Numerics.Vectors.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Buffers.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Text.Encodings.Web.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.ValueTuple.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Api.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\CustRes.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.AssemblyReference.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\About Box.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AddNativity.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AdvancedSearch.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ChangelogsWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\FindDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ImportNarrativesDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\DoubleInputDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\InputDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginsWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\NamingOptionsDialog.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomRichTextBox.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomTextbox.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\MainWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\NativityInformation.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\PreferencesWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProgressBarWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettings UI\GeneralProjectSettingsUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Tag.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\TagEditor.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\App.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.lref
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\About Box.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AddNativity.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\AdvancedSearch.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ChangelogsWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\FindDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ImportNarrativesDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\DoubleInputDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\InputDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginsWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\NamingOptionsDialog.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomRichTextBox.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CustomTextbox.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\MainWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\NativityInformation.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\PreferencesWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProgressBarWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettings UI\GeneralProjectSettingsUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Tag.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\TagEditor.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.g.resources
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.Properties.Resources.resources
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.WaitForm.resources
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.GenerateResource.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CoreCompileInputs.cache
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CopyComplete
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.pdb
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\OptimizationNativityPreferenceUI.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Preferences UI\OptimizationNativityPreferenceUI.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CommandConsoleWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\CommandConsoleWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\lua54.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\liblua54.dylib
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\x86\lua54.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\x64\lua54.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\x64\liblua54.so
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\KeraLua.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\NLua.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\KeraLua.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptsManagerWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptsManagerWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\ICSharpCode.AvalonEdit.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\ICSharpCode.AvalonEdit.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptEditorWindow.g.cs
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptEditorWindow.baml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\Api.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.ValueTuple.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Buffers.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Memory.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Numerics.Vectors.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe.config
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Data.Common.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Diagnostics.Tracing.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Globalization.Extensions.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.IO.Compression.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Net.Http.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Net.Sockets.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Runtime.Serialization.Primitives.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Security.SecureString.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Threading.Overlapped.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\SixLabors.ImageSharp.dll
+E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\SixLabors.ImageSharp.xml

@@ -1,0 +1,20 @@
+Bugs
+	Fixed an issue where the incorrect nativity Id was shown in the "New Nativity" dialog.
+	Fixed an issue where version numbers were incorrectly compared, causing a new update prompt to appear regardless of wether the update was older or newer than the current version.
+	
+Optimization
+	Added a progress bar when opening and saving projects.
+	Added ability to report software crashes (with option to do so).
+
+*New Features
+	Added project settings under "Project>Settings...".
+		Added ability to set the name of the project.
+	Added workspaces and the "Main" workspace which is the default workspace.
+	Added a "Manage Plugins" window which can be accessed on the top menu via Plugins>Manage.
+	Plugins can now have their own dependencies which do not need to already be dependencies of the main software.
+	Plugin API
+		Changed the namespace to "ConwayNativityDirectory.PluginApi" instead of "PluginApi".
+		Added ability to add workspaces.
+		Added ability to add "view panes" and "info panes" with a specified workspace.
+		Menu plugins are now loaded differently. A MenuItem is passed to the actual plugin making the API more flexible.
+		Added a metadata storage api for individual projects and nativities

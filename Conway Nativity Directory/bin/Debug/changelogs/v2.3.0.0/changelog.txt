@@ -1,0 +1,24 @@
+Bugs
+	Fixed an issue where auto-saving was not automatically saving new (unsaved) projects.
+	Fixed an issue where when creating a new project after closing one, the auto-save feature save over the last opened project.
+	Fixed an issue where when using the "Go To" feature, the incorrect nativity was found.
+	Fixed the natorious selection bug (partly).
+	Fixed an issue where the same image could be used for more than one nativity and causing the software to crash while trying to do so.
+	Fixed an issue where tabbing in the nativity view was not working.
+	Fixed an issue where tabbing in the "Add Nativity" window was not working.
+	Fixed an issue where when several nativities were created, they would all have the same tags and geographical origins.
+	Fixed an issue where the nativity parser did not add a description to the last parsed nativity.
+
+Optimizations
+	New nativities are selected and scrolled into view after being added.
+
+*New Features
+	Added more features to the "Manage Plugins" window including downloading & installing, uninstalling, and updating plugins.
+	Added a context menu when right clicking on one or more nativities.
+	Added a tool under "Edit>Naming>Replace Text..." which allows user to replace old text with new text
+	Added a tool under "Edit>Naming>Replace Text (Regex)..." which allows user to replace old text with new text using Regular Expressions (Regex)
+	Added the Command Console Window
+	Added lua scripting (the Lua api is a work in progress)
+		Scripts accessed under File>Scripts
+		Scripts can be managed through the Script Manager under File>Scripts>Script Manager
+	Added the 'lua' command

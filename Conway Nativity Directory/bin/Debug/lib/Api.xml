@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:ConwayNativityDirectory.PluginApi.IAction.Redo">
+            <summary>
+            Undoes an action.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IAction.Undo">
+            <summary>
+            Redoes an action.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IAction.Description">
+            <summary>
+            Gets the description of the action.
+            </summary>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionStack">
+            <summary>
+            Holds a collection of <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/> interfaces that can be selected.
+            </summary>
+        </member>
+        <member name="E:ConwayNativityDirectory.PluginApi.ActionStack.ActionAdded">
+            <summary>
+            Occurs when a <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/> is added to an <see cref="T:ConwayNativityDirectory.PluginApi.ActionStack"/>.
+            </summary>
+        </member>
+        <member name="E:ConwayNativityDirectory.PluginApi.ActionStack.ActionUndone">
+            <summary>
+            Occurs when <see cref="M:ConwayNativityDirectory.PluginApi.IAction.Undo"/> is called in an <see cref="T:ConwayNativityDirectory.PluginApi.ActionStack"/>.
+            </summary>
+        </member>
+        <member name="E:ConwayNativityDirectory.PluginApi.ActionStack.ActionRedone">
+            <summary>
+            Occurs when <see cref="M:ConwayNativityDirectory.PluginApi.IAction.Redo"/> is called in an <see cref="T:ConwayNativityDirectory.PluginApi.ActionStack"/>.
+            </summary>
+        </member>
+        <member name="E:ConwayNativityDirectory.PluginApi.ActionStack.SelectedIndexChanged">
+            <summary>
+            Occurs after the value of <see cref="P:ConwayNativityDirectory.PluginApi.ActionStack.SelectedIndex"/> has changed.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.ActionStack.SelectedIndex">
+            <summary>
+            Gets the index of the next action that would be undone.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.ActionStack.Max">
+            <summary>
+            Gets or sets the maximum amount of actions.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ActionStack.Add(ConwayNativityDirectory.PluginApi.IAction)">
+            <summary>
+            Adds an object to the end of the <see cref="T:System.Collections.Generic.List`1"/>
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ActionStack.AddRange(System.Collections.Generic.IEnumerable{ConwayNativityDirectory.PluginApi.IAction})">
+            <summary>
+            Adds the elements of the specified collection to the end of the <see cref="T:System.Collections.Generic.List`1"/>
+            </summary>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ActionStack.SetSelectedIndex(System.Int32)">
+            <summary>
+            Sets the index of the next action that would be undone.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ActionStack.Undo">
+            <summary>
+            Calls the <see cref="M:ConwayNativityDirectory.PluginApi.IAction.Undo"/> of the selected <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/>.
+            </summary>
+            <returns>Returns false is no more actions can be undone</returns>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ActionStack.Redo">
+            <summary>
+            Calls the <see cref="M:ConwayNativityDirectory.PluginApi.IAction.Redo"/> of the next <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/>.
+            </summary>
+            <returns>Returns false is no more actions can be redone</returns>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionAddedEventHandler">
+            <summary>
+            Represents a method that commonly handles an <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/> bieng added to a <see cref="T:ConwayNativityDirectory.PluginApi.ActionStack"/>.
+            </summary>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionAddedEventArgs">
+            <summary>
+            Contains arguments relevent to an <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/>.
+            </summary>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionUndoneEventHandler">
+            <summary>
+            Represents a method that commonly handles <see cref="M:ConwayNativityDirectory.PluginApi.ActionStack.Undo"/> successfuly bieng called from an <see cref="T:ConwayNativityDirectory.PluginApi.ActionStack"/>.
+            </summary>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionUndoneEventArgs">
+            <summary>
+            Contains arguments relevent to an <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/>.
+            </summary>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionRedoneEventHandler">
+            <summary>
+            Represents a method that commonly handles <see cref="M:ConwayNativityDirectory.PluginApi.ActionStack.Redo"/> successfuly bieng called from an <see cref="T:ConwayNativityDirectory.PluginApi.ActionStack"/>.
+            </summary>
+        </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.ActionRedoneEventArgs">
+            <summary>
+            Contains arguments relevent to an <see cref="T:ConwayNativityDirectory.PluginApi.IAction"/>.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.IsOpen">
+            <summary>
+            Indicates if the project is currently opened.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.FileName">
+            <summary>
+            Indicates the filename of the project that is open.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.Nativities">
+            <summary>
+            Gets all nativities in the current project.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.SelectedNativities">
+            <summary>
+            Gets all selected nativities.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.SelectedNativity">
+            <summary>
+            Gets the main selected nativity.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.SelectedNativityIndex">
+            <summary>
+            Gets the main selected nativities index.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.SearchResults">
+            <summary>
+            Gets the nativities that are in the current search results.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.Actions">
+            <summary>
+            Gets the stack of actions performed by the user.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.New">
+            <summary>
+            Starts a new project.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.Open(System.String)">
+            <summary>
+            Opens a project.
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.Save">
+            <summary>
+            Saves the project.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.SaveAs(System.String)">
+            <summary>
+            Saves a project to another destination and sets <see cref="P:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.FileName"/> property to that destination.
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.Close">
+            <summary>
+            Closes the current project.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.GetMeta">
+            <summary>
+            Gets the storage of the project.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.IConwayNativityDirectoryProject.GetLocalMeta">
+            <summary>
+            Gets the local storage of the project. This data is not transfered in the project file but is only accessed by the current project.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.MenuPlugin.OnLoad(System.Windows.Controls.MenuItem)">
+            <summary>
+            Called when the <see cref="T:System.Windows.Controls.MenuItem"/> is added to the main menu.
+            </summary>
+            <param name="menuItem">The <see cref="T:System.Windows.Controls.MenuItem"/> that is added to the main menu.</param>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.MetaStorage">
+            <summary>
+            Gets the <see cref="T:ConwayNativityDirectory.PluginApi.MetaStorage"/> object that contains the item which changed.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.Key">
+            <summary>
+            Gets the Key.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.OldValue">
+            <summary>
+            Gets the old value.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.Value">
+            <summary>
+            Gets the new value.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.WasDeleted">
+            <summary>
+            Indicates if the value was deleted.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.WasCreated">
+            <summary>
+            Indicates if the value was created.
+            </summary>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.MetaStorageItemChangedEventArgs.WasChanged">
+            <summary>
+            Indicates if the value was not deleted or created but modified.
+            </summary>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.InfoPaneItemPlugin.OnLoad(ConwayNativityDirectory.PluginApi.PaneItem)">
+            <summary>
+            Called when the <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> is added to the info pane.
+            </summary>
+            <param name="menuItem">The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that is added to the info pane.</param>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.InfoPaneItemPlugin.CreatePaneItemOverride">
+            <summary>
+            Overrides <see cref="M:ConwayNativityDirectory.PluginApi.InfoPaneItemPlugin.CreatePaneItem"/>.
+            </summary>
+            <returns>The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that will be added to the pane.</returns>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.InfoPaneItemPlugin.CreatePaneItem">
+            <summary>
+            Creates the <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that will be added to the pane.
+            </summary>
+            <returns>The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that will be added to the pane.</returns>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ViewPaneItemPlugin.OnLoad(ConwayNativityDirectory.PluginApi.PaneItem)">
+            <summary>
+            Called when the <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> is added to the view pane.
+            </summary>
+            <param name="menuItem">The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that is added to the view pane.</param>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ViewPaneItemPlugin.CreatePaneItemOverride">
+            <summary>
+            Overrides <see cref="M:ConwayNativityDirectory.PluginApi.ViewPaneItemPlugin.CreatePaneItem"/>.
+            </summary>
+            <returns>The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that will be added to the pane.</returns>
+        </member>
+        <member name="M:ConwayNativityDirectory.PluginApi.ViewPaneItemPlugin.CreatePaneItem">
+            <summary>
+            Creates the <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that will be added to the pane.
+            </summary>
+            <returns>The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that will be added to the pane.</returns>
+        </member>
+        <member name="P:ConwayNativityDirectory.PluginApi.PaneItem.Key">
+            <summary>
+            Indicates the key that is used to know whcich <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> is selected.
+            </summary>
+        </member>
+        <member name="M:FileUtil.WhoIsLocking(System.String)">
+            <summary>
+            Find out what process(es) have a lock on the specified file.
+            </summary>
+            <param name="path">Path of the file.</param>
+            <returns>Processes locking the file</returns>
+            <remarks>See also:
+            http://msdn.microsoft.com/en-us/library/windows/desktop/aa373661(v=vs.85).aspx
+            http://wyupdate.googlecode.com/svn-history/r401/trunk/frmFilesInUse.cs (no copyright in code at time of viewing)
+            
+            </remarks>
+        </member>
+    </members>
+</doc>

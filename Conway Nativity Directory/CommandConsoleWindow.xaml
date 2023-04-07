@@ -1,0 +1,60 @@
+﻿<Window x:Class="Conway_Nativity_Directory.CommandConsoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conway_Nativity_Directory"
+        mc:Ignorable="d"
+        Title="Command Console" Height="500" Width="900" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:CustomCommands.Ok" Executed="EnterCommand"/>
+        <CommandBinding Command="local:CustomCommands.CloseWindow" Executed="CloseWindow"/>
+        <CommandBinding Command="local:CustomCommands.Up" Executed="UpCommand"/>
+        <CommandBinding Command="local:CustomCommands.Down" Executed="DownCommand"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="Return" Command="local:CustomCommands.Ok"/>
+        <KeyBinding Key="Esc" Command="local:CustomCommands.CloseWindow"/>
+        <KeyBinding Key="Up" Command="local:CustomCommands.Up"/>
+        <KeyBinding Key="Down" Command="local:CustomCommands.Down"/>
+    </Window.InputBindings>
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListView Name="consoleListView" Background="Transparent" BorderThickness="0" Foreground="White" FontFamily="Consolas" Margin="5"
+                  SelectionMode="Single" ItemsSource="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:CommandConsoleWindow}},
+                                                        Path=ConsoleLines}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                <Border Background="{TemplateBinding Background}"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}">
+                                    <ContentPresenter/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="BorderBrush" Value="#99FFFFFF"/>
+                            <Setter Property="Background" Value="#40FFFFFF"/>
+                            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="#50FFFFFF"/>
+                            <Setter Property="Background" Value="#10FFFFFF"/>
+                            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+        <TextBox Name="inputTextBox" Grid.Row="1" Background="#17FFFFFF" Height="24" BorderThickness="0" VerticalAlignment="Center" Padding="5,4"
+                 CaretBrush="White" Foreground="White" FontFamily="Consolas" SelectionBrush="#90FFFFFF"/>
+    </Grid>
+</Window>

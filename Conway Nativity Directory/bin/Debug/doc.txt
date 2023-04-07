@@ -1,0 +1,74 @@
+Official Conway Nativity Directory Software Documentation / Manual
+==========================================================================================================
+
+==========================================================================================================
+
+Section A. Builtin Menu
+
+This sections provides information about the builtin menu on the top of the screen and the options it provides.
+Below is a list tree of options. This list does not include plugin features.
+
+	→ File --------------------------------------------------------- Provides tools for opening, closing and creating projects.
+		→ New ------------------------------------------------------ Creates a new project.
+		→ Open ----------------------------------------------------- Opens an existing project from a file.
+		→ Close ---------------------------------------------------- Closes the current project.
+		→ Save ----------------------------------------------------- Saves the current project.
+		→ Save As -------------------------------------------------- Saves the current project to a specified file locaiton. Notes: The next time you save your project, it will be saved to the new location unless you use "Save As" again.
+		→ Login ---------------------------------------------------- Logs the user into edit mode. Notes: Only available if a password is set in Preferences.
+		→ Exit ----------------------------------------------------- Exits the software.
+
+	→ Project ------------------------------------------------------ Provides tools for managing individual projects.
+		→ Settings ------------------------------------------------- Opens a window showing settings per individual project.
+
+	→ Edit --------------------------------------------------------- Provides tools for editing nativities and other types of data.
+		→ Undo ----------------------------------------------------- Undo an action.
+		→ Redo ----------------------------------------------------- Redo an action.
+		→ Image Tools ---------------------------------------------- Provides tools for managing images for nativities.
+			→ Assign Images by Id ---------------------------------- Opens a dialog prompting the user to specify an folder that contains images named only by numbers, then assigns those images to a nativity based on the name of the file.
+			→ Remove Images ---------------------------------------- Removes images from the selected nativities, or if no nativities are selected, all of them.
+			→ Rotation --------------------------------------------- Provides rotation tools for nativity images.
+				→ Rotate Right ------------------------------------- Rotates an image to the right.
+				→ Rotate Left -------------------------------------- Rotates an image to the left.
+			→ Embedd Images ---------------------------------------- 
+			→ Relink Images ----------------------------------------  
+		→ Tagging -------------------------------------------------- 
+			→ Organize Tags & Geographical Origins------------------ 
+			→ Add Tag to Selection --------------------------------- 
+			→ Remove Tag from Selection ---------------------------- 
+			→ Add Geographical Origin to Selection ----------------- 
+			→ Remove Geographical Origin from Selection ------------ 
+		→ Preferences ---------------------------------------------- 
+
+	→ Nativities --------------------------------------------------- Provides tools for managing nativities including adding and removing.
+		→ Add ------------------------------------------------------ 
+		→ Remove --------------------------------------------------- 
+		→ Selection ------------------------------------------------ 
+
+	→ Search ------------------------------------------------------- Provides search tools for nativities and other types of data.
+		→ Find ----------------------------------------------------- 
+		→ Go To ---------------------------------------------------- 
+		→ Advanced Search ------------------------------------------ 
+		→ Tools ---------------------------------------------------- 
+			→ Find Missing Nativity Ids ---------------------------- 
+			→ Find Nativities Without Images ----------------------- 
+
+	→ View --------------------------------------------------------- Provides view managment options that change the way data is shown on screen.
+		→ Workspaces ----------------------------------------------- 
+			→ Main -------------------------------------------------
+			→ [there may be other options]-------------------------- 
+		→ Id ------------------------------------------------------- 
+		→ Title ---------------------------------------------------- 
+		→ Origin --------------------------------------------------- 
+		→ Acquired ------------------------------------------------- 
+		→ From ----------------------------------------------------- 
+		→ Cost ----------------------------------------------------- 
+		→ Location ------------------------------------------------- 
+		→ Tags ----------------------------------------------------- 
+		→ Geographical Origins ------------------------------------- 
+
+	→ Plugins ------------------------------------------------------ Provides tools for managing plugins.
+		→ Manage --------------------------------------------------- 
+
+	→ Help --------------------------------------------------------- Provides information about the software.
+		→ Changelogs ----------------------------------------------- 
+		→ About ---------------------------------------------------- 
