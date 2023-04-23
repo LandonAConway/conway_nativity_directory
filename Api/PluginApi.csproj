@@ -71,6 +71,7 @@
     <Compile Include="IConwayNativityDirectoryProject.cs" />
     <Compile Include="IPlugin.cs" />
     <Compile Include="Lua\NativityObjBase.cs" />
+    <Compile Include="NativityTextParser.cs" />
     <Compile Include="PluginDB\SharedPlugin.cs" />
     <Compile Include="PluginFeatures\MenuPlugin.cs" />
     <Compile Include="MetaStorage.cs" />

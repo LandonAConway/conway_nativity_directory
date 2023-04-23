@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conway Nativity Directory",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginApi", "C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\PluginApi.csproj", "{73C1B169-FE4C-4CA3-B2CA-A071373ADA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTest", "PluginTest\PluginTest.csproj", "{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{949A6E98-BC6A-41EB-AE87-ADBCBBEEC8ED}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -46,6 +48,18 @@ Global
 		{73C1B169-FE4C-4CA3-B2CA-A071373ADA4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73C1B169-FE4C-4CA3-B2CA-A071373ADA4D}.Release|x64.ActiveCfg = Release|Any CPU
 		{73C1B169-FE4C-4CA3-B2CA-A071373ADA4D}.Release|x64.Build.0 = Release|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.All|Any CPU.Build.0 = Release|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.All|x64.ActiveCfg = Debug|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.All|x64.Build.0 = Debug|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC147884-A0F2-4A91-BFD8-8A34AF11AE7A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

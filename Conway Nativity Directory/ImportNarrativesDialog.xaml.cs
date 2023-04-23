@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
+using ConwayNativityDirectory.PluginApi;
+using System.Windows.Forms.VisualStyles;
 
 namespace Conway_Nativity_Directory
 {
@@ -50,106 +52,123 @@ namespace Conway_Nativity_Directory
                 waitForm.Show();
                 waitForm.Update();
 
-                string[] content = File.ReadAllLines(ofd.FileName, Encoding.UTF8);
+                //string[] content = File.ReadAllLines(ofd.FileName, Encoding.UTF8);
 
-                int id = -1;
-                foreach (string line in content)
+                //int id = -1;
+                //foreach (string line in content)
+                //{
+                //    if (!String.IsNullOrWhiteSpace(line) && Char.IsDigit(line.FirstOrDefault()))
+                //    {
+                //        string number = "";
+                //        foreach (char c in line)
+                //        {
+                //            if (Char.IsDigit(c))
+                //                number = number + c.ToString();
+                //            else
+                //                break;
+                //        }
+                //        id = Convert.ToInt32(number);
+                //        break;
+                //    }
+                //}
+
+                //if (id == -1)
+                //{
+                //    MessageBox.Show("Could not parse nativities. Are you sure the file is in the correct format?");
+                //    return;
+                //}
+
+                //List<Nativity> nativities = new List<Nativity>(); bool createDuplicate = false;
+                //int index = 0;
+                //string title = "";
+                //string desciption = "";
+                //foreach (string line in content)
+                //{
+                //    try
+                //    {
+                //        if (line.StartsWith(id.ToString() + "."))
+                //        {
+                //            if (index > 0)
+                //            {
+                //                if (createDuplicate)
+                //                {
+                //                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
+                //                    nativities[index].Description = desciption.TrimStart('\n').TrimEnd('\n');
+                //                    createDuplicate = false;
+                //                }
+
+                //                else
+                //                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
+                //            }
+
+                //            index++;
+                //            title = line.Substring(id.ToString().Length + 1).TrimStart(' ').TrimEnd(' ');
+                //            desciption = "";
+                //            nativities.Add(new Nativity() { Id = id, Title = title });
+
+                //            id++;
+                //        }
+
+                //        else if (line.StartsWith(id.ToString() + "-" + (id + 1).ToString() + "."))
+                //        {
+                //            if (index > 0)
+                //            {
+                //                if (createDuplicate)
+                //                {
+                //                    nativities[index - 2].Description = desciption.TrimStart('\n').TrimEnd('\n');
+                //                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
+                //                    createDuplicate = false;
+                //                }
+
+                //                else
+                //                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
+                //            }
+
+                //            index = id;
+                //            title = line.Substring(id.ToString().Length + (id + 1).ToString().Length + 2).TrimStart(' ').TrimEnd(' ');
+                //            desciption = "";
+                //            createDuplicate = true;
+
+                //            nativities.Add(new Nativity() { Id = id, Title = title });
+                //            nativities.Add(new Nativity() { Id = id + 1, Title = title });
+
+                //            id = id + 2;
+                //        }
+
+                //        else
+                //        {
+                //            desciption = desciption + line;
+                //        }
+                //    }
+
+                //    catch
+                //    {
+                //        MessageBox.Show("There was an issue parsing the rest of the file. Please make sure that each nativity's id & title has it's " +
+                //            "own line followed by a period and a description below. (Do not add multiple id's in a single line before a period. " +
+                //            "i.e. \"1-2. Title\". Nativity 1 and 2 in the example must be on a seperate line with their own title.)");
+                //    }
+                //}
+
+                //var lastNativity = nativities.LastOrDefault();
+                //if (lastNativity != null)
+                //    lastNativity.Description = desciption;
+
+                string text = File.ReadAllText(ofd.FileName, Encoding.UTF8);
+
+                NativityTextParser parser = NativityTextParser.Create(text);
+                parser.Parse();
+
+                List<Nativity> nativities = new List<Nativity>();
+                foreach (string[] x in parser.Output)
                 {
-                    if (!String.IsNullOrWhiteSpace(line) && Char.IsDigit(line.FirstOrDefault()))
-                    {
-                        string number = "";
-                        foreach (char c in line)
-                        {
-                            if (Char.IsDigit(c))
-                                number = number + c.ToString();
-                            else
-                                break;
-                        }
-                        id = Convert.ToInt32(number);
-                        break;
-                    }
+                    Nativity nativity = new Nativity();
+                    nativity.Id = Convert.ToInt32(x[0]);
+                    nativity.Title = x[1];
+                    nativity.Description = x[2];
+                    nativity.Tags = new System.Collections.ObjectModel.ObservableCollection<string>();
+                    nativity.GeographicalOrigins = new System.Collections.ObjectModel.ObservableCollection<string>();
+                    nativities.Add(nativity);
                 }
-
-                if (id == -1)
-                {
-                    MessageBox.Show("Could not parse nativities. Are you sure the file is in the correct format?");
-                    return;
-                }
-
-                List<Nativity> nativities = new List<Nativity>(); bool createDuplicate = false;
-                int index = 0;
-                string title = "";
-                string desciption = "";
-                foreach (string line in content)
-                {
-                    try
-                    {
-                        if (line.StartsWith(id.ToString() + "."))
-                        {
-                            if (index > 0)
-                            {
-                                if (createDuplicate)
-                                {
-                                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
-                                    nativities[index].Description = desciption.TrimStart('\n').TrimEnd('\n');
-                                    createDuplicate = false;
-                                }
-
-                                else
-                                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
-                            }
-
-                            index++;
-                            title = line.Substring(id.ToString().Length + 1).TrimStart(' ').TrimEnd(' ');
-                            desciption = "";
-                            nativities.Add(new Nativity() { Id = id, Title = title });
-
-                            id++;
-                        }
-
-                        else if (line.StartsWith(id.ToString() + "-" + (id + 1).ToString() + "."))
-                        {
-                            if (index > 0)
-                            {
-                                if (createDuplicate)
-                                {
-                                    nativities[index - 2].Description = desciption.TrimStart('\n').TrimEnd('\n');
-                                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
-                                    createDuplicate = false;
-                                }
-
-                                else
-                                    nativities[index - 1].Description = desciption.TrimStart('\n').TrimEnd('\n');
-                            }
-
-                            index = id;
-                            title = line.Substring(id.ToString().Length + (id + 1).ToString().Length + 2).TrimStart(' ').TrimEnd(' ');
-                            desciption = "";
-                            createDuplicate = true;
-
-                            nativities.Add(new Nativity() { Id = id, Title = title });
-                            nativities.Add(new Nativity() { Id = id + 1, Title = title });
-
-                            id = id + 2;
-                        }
-
-                        else
-                        {
-                            desciption = desciption + line;
-                        }
-                    }
-
-                    catch
-                    {
-                        MessageBox.Show("There was an issue parsing the rest of the file. Please make sure that each nativity's id & title has it's " +
-                            "own line followed by a period and a description below. (Do not add multiple id's in a single line before a period. " +
-                            "i.e. \"1-2. Title\". Nativity 1 and 2 in the example must be on a seperate line with their own title.)");
-                    }
-                }
-
-                var lastNativity = nativities.LastOrDefault();
-                if (lastNativity != null)
-                    lastNativity.Description = desciption;
 
                 waitForm.Close();
 
