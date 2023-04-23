@@ -62,8 +62,8 @@
     <Reference Include="CustRes">
       <HintPath>..\..\..\CustRes Test\CustRes\bin\Debug\CustRes.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.AvalonEdit, Version=6.2.0.78, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
-      <HintPath>..\packages\AvalonEdit.6.2.0.78\lib\net462\ICSharpCode.AvalonEdit.dll</HintPath>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=6.3.0.90, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <HintPath>..\packages\AvalonEdit.6.3.0.90\lib\net462\ICSharpCode.AvalonEdit.dll</HintPath>
     </Reference>
     <Reference Include="KeraLua, Version=1.3.3.0, Culture=neutral, PublicKeyToken=6a194c04b9c89217, processorArchitecture=MSIL">
       <HintPath>..\packages\KeraLua.1.3.3\lib\net46\KeraLua.dll</HintPath>
@@ -178,7 +178,7 @@
     <Compile Include="Lua\Scripts\ScriptItem.cs" />
     <Compile Include="Lua\Wrappers\FileDialogs.cs" />
     <Compile Include="Lua\LuaEngine.cs" />
-    <Compile Include="Lua\Wrappers\NativityRef.cs" />
+    <Compile Include="Lua\Wrappers\NativityObj.cs" />
     <Compile Include="Lua\Scripts\ScriptMenuItem.cs" />
     <Compile Include="Lua\Wrappers\ProgressBarModalRef.cs" />
     <Compile Include="ManagePluginsWindow\ListViewItems.cs" />

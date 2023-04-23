@@ -10,10 +10,13 @@ using System.IO;
 using System.Reflection;
 using ConwayNativityDirectory.PluginApi;
 using ConwayNativityDirectory.PluginApi.Primitives;
+using ConwayNativityDirectory.PluginApi.Lua_Sandbox;
 using System.Collections;
 using System.Text.Json.Nodes;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
+using Conway_Nativity_Directory.Lua_Sandbox;
+using System.Windows.Navigation;
 
 namespace Conway_Nativity_Directory
 {
@@ -385,6 +388,8 @@ namespace Conway_Nativity_Directory
             File.WriteAllText(path, JsonSerializer.Serialize(pluginSettings));
         }
 
+        public string GetDllPath() => InstallationPath + @"\" + Path.GetFileName(InstallationPath) + ".dll";
+
         public string GetDataPath()
         {
             var result = AppDomain.CurrentDomain.BaseDirectory + @"\bin\plugins\data\" +
@@ -511,6 +516,10 @@ namespace Conway_Nativity_Directory
         {
             return new ProgressBarModal();
         }
+
+        public NativityObjBase CreateNativityObjBase() => new NativityObj();
+
+        public NativityObjBase GetNativityObjBase(NativityBase nativityBase) => new NativityObj((Nativity)nativityBase);
 
         #region internal stuff
 

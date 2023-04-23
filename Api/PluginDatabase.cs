@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using ConwayNativityDirectory.PluginApi.Primitives;
+using ConwayNativityDirectory.PluginApi.Lua_Sandbox;
 
 namespace ConwayNativityDirectory.PluginApi
 {
@@ -28,6 +29,8 @@ namespace ConwayNativityDirectory.PluginApi
         string GetInput(string caption, string defaultResponse);
         WaitFormRef CreateWaitForm();
         ProgressBarModalRef CreateProgressBarModal();
+        NativityObjBase CreateNativityObjBase();
+        NativityObjBase GetNativityObjBase(NativityBase nativityBase);
     }
 
     public static class PluginDatabase

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.IO;
+using NLua;
 
 namespace ConwayNativityDirectory.PluginApi
 {
@@ -99,6 +100,23 @@ namespace ConwayNativityDirectory.PluginApi
         protected virtual void OnPluginStorageLoaded(MetaStorage pluginStorage) { }
 
         protected virtual void OnAllPluginsLoaded() { }
+
+        #endregion
+
+
+        #region Lua Scripting
+
+
+        bool luaScriptingIsLoaded = false;
+        public void LoadLuaScripting(Lua engine)
+        {
+            if (!luaScriptingIsLoaded)
+                this.OnLoadLuaScripting(engine);
+            luaScriptingIsLoaded = true;
+        }
+
+        protected virtual void OnLoadLuaScripting(Lua engine) { }
+
 
         #endregion
 

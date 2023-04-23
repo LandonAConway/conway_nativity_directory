@@ -20,8 +20,9 @@ namespace ConwayNativityDirectory.PluginApi
         /// <summary>
         /// Called when the <see cref="PaneItem"/> is added to the info pane.
         /// </summary>
-        /// <param name="menuItem">The <see cref="PaneItem"/> that is added to the info pane.</param>
-        public virtual void OnLoad(PaneItem PaneItem) { }
+        /// <param name="paneItem">The <see cref="PaneItem"/> that is added to the info pane.</param>
+        /// 
+        public virtual void OnLoad(PaneItem paneItem) { }
 
         /// <summary>
         /// Overrides <see cref="CreatePaneItem"/>.
@@ -51,8 +52,8 @@ namespace ConwayNativityDirectory.PluginApi
         /// <summary>
         /// Called when the <see cref="PaneItem"/> is added to the view pane.
         /// </summary>
-        /// <param name="menuItem">The <see cref="PaneItem"/> that is added to the view pane.</param>
-        public virtual void OnLoad(PaneItem PaneItem) { }
+        /// <param name="paneItem">The <see cref="PaneItem"/> that is added to the info pane.</param>
+        public virtual void OnLoad(PaneItem paneItem) { }
 
         /// <summary>
         /// Overrides <see cref="CreatePaneItem"/>.

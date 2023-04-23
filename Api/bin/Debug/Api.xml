@@ -192,6 +192,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:ConwayNativityDirectory.PluginApi.Lua_Sandbox.NativityObjBase">
+            <summary>
+            Base class for the NativityObj which is exposed to the lua scripting api.
+            </summary>
+        </member>
         <member name="M:ConwayNativityDirectory.PluginApi.MenuPlugin.OnLoad(System.Windows.Controls.MenuItem)">
             <summary>
             Called when the <see cref="T:System.Windows.Controls.MenuItem"/> is added to the main menu.
@@ -237,7 +242,8 @@
             <summary>
             Called when the <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> is added to the info pane.
             </summary>
-            <param name="menuItem">The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that is added to the info pane.</param>
+            <param name="paneItem">The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that is added to the info pane.</param>
+            
         </member>
         <member name="M:ConwayNativityDirectory.PluginApi.InfoPaneItemPlugin.CreatePaneItemOverride">
             <summary>
@@ -255,7 +261,7 @@
             <summary>
             Called when the <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> is added to the view pane.
             </summary>
-            <param name="menuItem">The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that is added to the view pane.</param>
+            <param name="paneItem">The <see cref="T:ConwayNativityDirectory.PluginApi.PaneItem"/> that is added to the info pane.</param>
         </member>
         <member name="M:ConwayNativityDirectory.PluginApi.ViewPaneItemPlugin.CreatePaneItemOverride">
             <summary>

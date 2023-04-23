@@ -12,9 +12,9 @@ DEBUG;TRACE
 E:\GitHub\conway_nativity_directory\Conway Nativity Directory\App.xaml
 31260447503
 
-96-1522237398
-140-559713055
+951768870277
+33-1219782051
 About Box.xaml;AddNativity.xaml;AdvancedSearch.xaml;ChangelogsWindow.xaml;CommandConsoleWindow.xaml;Lua\Scripts\ScriptEditorWindow.xaml;DoubleInputDialog.xaml;FindDialog.xaml;ImportNarrativesDialog.xaml;InputDialog.xaml;ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.xaml;ManagePluginsWindow\ManagePluginsWindow.xaml;NamingOptionsDialog.xaml;Preferences UI\AutoSavePreference.xaml;Preferences UI\OptimizationNativityPreferenceUI.xaml;Preferences UI\InterfaceMainWindowPreferenceUI.xaml;Preferences UI\StartupPreferenceUI.xaml;Preferences UI\LoginSettingsPreferenceUI.xaml;Preferences UI\CachePreferenceUI.xaml;ColumnHeaderArrow.xaml;CustomRichTextBox.xaml;CustomTextbox.xaml;MainWindow.xaml;NativityInformation.xaml;PreferencesWindow.xaml;ProgressBarWindow.xaml;ProjectSettings UI\GeneralProjectSettingsUI.xaml;ProjectSettingsWindow.xaml;Lua\Scripts\ScriptsManagerWindow.xaml;Tag.xaml;TagEditor.xaml;
 
-True
+False
 

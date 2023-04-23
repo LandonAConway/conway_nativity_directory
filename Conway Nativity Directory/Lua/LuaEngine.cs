@@ -35,6 +35,7 @@ namespace Conway_Nativity_Directory
             engine.LoadCLRPackage();
             engine.DoString(@"import('Conway Nativity Directory', 'Conway_Nativity_Directory.Lua_Sandbox')
                 import('System.IO')
+                import('PluginApi', 'ConwayNativityDirectory.Lua_Sandbox')
                 cnd = {
                     _t = {},
                     keyboard = {},
@@ -59,8 +60,22 @@ namespace Conway_Nativity_Directory
             engine.RegisterFunction("cnd.keyboard.is_key_up", typeof(_Keyboard).GetMethod("IsKeyUp"));
             engine.RegisterFunction("cnd.keyboard.is_key_toggled", typeof(_Keyboard).GetMethod("IsKeyToggled"));
 
+            engine.DoString(@"function import_from_plugin(namespace)
+                import(current_plugin_assembly, namespace)
+            end
+            ");
+
+            foreach (PluginInfo pluginInfo in PluginDatabaseMain.EnabledPlugins)
+            {
+                engine["current_plugin_assembly"] = pluginInfo.GetDllPath();
+                pluginInfo.Plugin.LoadLuaScripting(engine);
+                engine["current_plugin_assembly"] = null;
+            }
+
             //Get rid of unsafe stuff
-            engine.DoString(@"import = function() end");
+            engine.DoString(@"import = function() end
+                    import_from_plugin = function() end
+            ");
         }
 
         private static void LoadScripts()

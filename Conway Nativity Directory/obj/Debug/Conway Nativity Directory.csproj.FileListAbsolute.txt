@@ -271,3 +271,115 @@ E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity
 E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\System.Xml.XPath.XDocument.dll
 E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\SixLabors.ImageSharp.dll
 E:\Visual Studio 2017\Projects\repos\Conway Nativity Directory 2\Conway Nativity Directory\Conway Nativity Directory\bin\Debug\SixLabors.ImageSharp.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.AssemblyReference.cache
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.SuggestedBindingRedirects.cache
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe.config
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\About Box.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\AddNativity.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\AdvancedSearch.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ChangelogsWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\CommandConsoleWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptEditorWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\DoubleInputDialog.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\FindDialog.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ImportNarrativesDialog.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\InputDialog.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginsWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\NamingOptionsDialog.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\OptimizationNativityPreferenceUI.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\CustomRichTextBox.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\CustomTextbox.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\MainWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\NativityInformation.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\PreferencesWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ProgressBarWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ProjectSettings UI\GeneralProjectSettingsUI.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptsManagerWindow.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Tag.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\TagEditor.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\App.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.cache
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory_MarkupCompile.lref
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.exe
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.pdb
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\lua54.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\liblua54.dylib
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\liblua54.so
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\x86\lua54.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\x64\lua54.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\x64\liblua54.so
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe.config
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.exe
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Conway Nativity Directory.pdb
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Api.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\ICSharpCode.AvalonEdit.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\KeraLua.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\NLua.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Buffers.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Memory.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Numerics.Vectors.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Text.Json.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.ValueTuple.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Text.Encodings.Web.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Api.pdb
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Api.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\Api.dll.config
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\CustRes.pdb
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\ICSharpCode.AvalonEdit.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\KeraLua.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Buffers.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Memory.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Numerics.Vectors.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\bin\Debug\System.ValueTuple.xml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\About Box.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\AddNativity.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\AdvancedSearch.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ChangelogsWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\CommandConsoleWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptEditorWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\DoubleInputDialog.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\FindDialog.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ImportNarrativesDialog.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\InputDialog.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginAuthorizationCodesWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ManagePluginsWindow\ManagePluginsWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\NamingOptionsDialog.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\AutoSavePreference.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\OptimizationNativityPreferenceUI.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\InterfaceMainWindowPreferenceUI.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\StartupPreferenceUI.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\LoginSettingsPreferenceUI.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Preferences UI\CachePreferenceUI.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ColumnHeaderArrow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\CustomRichTextBox.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\CustomTextbox.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\MainWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\NativityInformation.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\PreferencesWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ProgressBarWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ProjectSettings UI\GeneralProjectSettingsUI.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\ProjectSettingsWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Lua\Scripts\ScriptsManagerWindow.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Tag.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\TagEditor.baml
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.g.resources
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.Properties.Resources.resources
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway_Nativity_Directory.WaitForm.resources
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.GenerateResource.cache
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CoreCompileInputs.cache
+E:\GitHub\conway_nativity_directory\Conway Nativity Directory\obj\Debug\Conway Nativity Directory.csproj.CopyComplete

@@ -15,3 +15,13 @@ C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity 
 C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\Api.dll
 C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\obj\Debug\Api.pdb
 C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\Api.xml
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\lua54.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\liblua54.dylib
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\liblua54.so
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\x86\lua54.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\x64\lua54.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\x64\liblua54.so
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\Api.dll.config
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\KeraLua.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\NLua.dll
+C:\Users\Landon Conway\source\repos\Conway Nativity Directory 2\Conway Nativity Directory\Api\bin\Debug\KeraLua.xml
